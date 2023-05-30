@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --cinza: #5b5b58;
+    --creme: #e5e5e5;
+    --bordas: #22fa;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: lightgrey;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Poppins , sans-serif;
+}
+
+.escopo{
+    
+    margin-bottom: 20px;
+
+}
+
+.h1{
+    font-size: 35px
+
+}
+
+.h2 , .h3 {
+    font-size: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+}
+
+.certificados , .experiencias{
+    display: flex ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.list{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    border: 2px solid var(--cinza);
+    border-radius: 20px;
+    width: 500px;
+    background-color: var(--creme);
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.div{
+    margin: 10px;
+}
+
+.eu{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.objetivos , .habilidades{
+    display: flex;
+    width: 750px;
+    flex-wrap: wrap;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-family: Poppins , sans-serif;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
